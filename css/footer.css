@@ -1,0 +1,17 @@
+.footer {
+  background-color: #f8f8f8;
+}
+.footer_row {
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__text {
+  color: #000;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 100px;
+}
+.footer span {
+  color: #9f00ff;
+}

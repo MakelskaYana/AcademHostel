@@ -1,0 +1,14 @@
+@import"reset";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap');
+body{
+	height: 100%;
+}
+.wrapper {
+	display: flex;
+	min-height: 100%;
+	overflow: hidden;
+	flex-direction: column;
+}
+@import"header";
+@import"main-screen";
+@import"footer";
