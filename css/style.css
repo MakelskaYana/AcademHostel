@@ -411,6 +411,13 @@ body {
   visibility: hidden;
 }
 
+#contacts, #price {
+  padding-top: 100px;
+  margin-top: -100px;
+  -webkit-background-clip: content-box;
+  background-clip: content-box;
+}
+
 @media (max-width: 1530px) {
   .header__contacts {
     padding-left: 20px;
@@ -437,9 +444,21 @@ body {
     padding: 0 0 5px 0;
   }
 }
+@media (max-width: 768px) {
+  .slider {
+    margin: 0 15px;
+  }
+}
 @media (max-width: 800px) {
   body.lock {
     overflow: hidden;
+  }
+
+  #contacts, #price {
+    padding-top: 70px;
+    margin-top: -70px;
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
   }
 
   .header__btn.btn-reserve {
